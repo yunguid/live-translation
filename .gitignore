@@ -1,0 +1,69 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Model files and cache
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+*.model
+*.pb
+**/models/
+.cache/
+**/cache/
+.huggingface/
+
+# Logs and temporary files
+logs/
+*.log
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Media files that might be created during testing
+*.wav
+*.mp3
+*.mp4
+*.flac
+*.ogg
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.vs/
+
+# Project specific
+.pyannote/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large data files
+*.csv
+*.db
+*.sqlite
+*.json 
